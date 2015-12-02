@@ -1,0 +1,8 @@
+GIT COMMANDS:
+
+	git add .
+	git add <filename>
+	git status
+	git rm --cached <filename>
+	git rm --cached 			// removes all from staging
+
