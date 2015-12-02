@@ -5,4 +5,18 @@ GIT COMMANDS:
 	git status
 	git rm --cached <filename>
 	git rm --cached 			// removes all from staging
+	git diff
+	git diff --cached
 
+	git reset --hard <<branch name>>        // reset back to HEAD
+
+
+
+
+
+Common git errors:
+=========================
+1. himanshusetia@himanshu0811:~/gitty/gitty$ git log
+fatal: bad default revision 'HEAD'
+
+Can be seen when there is no initial commit
