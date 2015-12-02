@@ -7,6 +7,11 @@ GIT COMMANDS:
 	git rm --cached 			// removes all from staging
 	git diff
 	git diff --cached
+	git log
+	git log --oneline			// to describe commits in one line
+	git commit -a -m "shortcut"		// adds everything in working dir to staging area
+
+
 
 	git reset --hard <<branch name>>        // reset back to HEAD
 
