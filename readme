@@ -9,7 +9,7 @@ GIT COMMANDS:
 	git diff --cached
 	git log
 	git log --oneline			// to describe commits in one line
-	git commit -a -m "shortcut"		// adds everything in working dir to staging area
+	git commit -a -m "shortcut"		// commits everything in local repo(staging area) 
 
 
 
