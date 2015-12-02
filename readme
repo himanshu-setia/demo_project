@@ -16,7 +16,7 @@ GIT COMMANDS:
 	git remote add origin <ssh remote repo loc>
 	git push origin master			// pushes the master branch
 
-
+	git merge master			
 	
 ==========================
 	Deploy keys : repo and server can directly talk without account login
