@@ -14,6 +14,7 @@ GIT COMMANDS:
 						// commits any file with change even though it is not in staging, if the file was committed sometime in past
 	git status -s				// shows what has been modified in short
 	git remote add origin <ssh remote repo loc>
+	git push origin master			// pushes the master branch
 
 
 	
