@@ -21,6 +21,9 @@ GIT COMMANDS:
 	git checkout <branch_name>		// switch to branch_name
 
 Other Notes:	
+=======
+	git merge master			
+	
 ==========================
 	Deploy keys : repo and server can directly talk without account login
 
