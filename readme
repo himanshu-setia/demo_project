@@ -10,7 +10,25 @@ GIT COMMANDS:
 	git log
 	git log --oneline			// to describe commits in one line
 	git commit -a -m "shortcut"		// commits everything in local repo(staging area) 
+						// does not commit a file which was previously never committed
+						// commits any file with change even though it is not in staging, if the file was committed sometime in past
+	git status -s				// shows what has been modified in short
+	git remote add origin <ssh remote repo loc>
 
+
+	
+==========================
+	Deploy keys : repo and server can directly talk without account login
+
+
+===========================
+himanshusetia@himanshu0811:~/gitty/gitty$ git status -s
+ M readme
+?? dummy2
+
+// dummy2 was not added even once so "??"
+===========================
+===========================
 
 
 	git reset --hard <<branch name>>        // reset back to HEAD
